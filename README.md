@@ -9,8 +9,22 @@
 ![image](https://github.com/user-attachments/assets/0e7df233-0f25-4c35-a9ce-e579dcb15d24)
 
 ## 4. 시퀀스 다이어그램
+### 1. 유저 토큰 발급
+![image](https://github.com/user-attachments/assets/3bc794e0-2a85-4555-80a3-4e7985c33b5f)
 
+### 2. 예약 가능 날짜 / 좌석 조회
+![image](https://github.com/user-attachments/assets/b6d64448-274e-4ac1-add6-ce3e17a589c0)
+
+### 3. 좌석 예약 요청
+![image](https://github.com/user-attachments/assets/d0f6b738-87d1-40ee-acf7-1d6ebbb16ebe)
+
+### 4. 잔액 충전 / 조회
+![image](https://github.com/user-attachments/assets/8b7b19c1-4c1b-4742-af0c-2f508b348c0d)
+
+### 5. 결제
+![image](https://github.com/user-attachments/assets/26837ab0-9a80-41fe-a68f-b9f5014debe9)
 
 
 ## 5. 플로우 차트
-
+![image](https://github.com/user-attachments/assets/960052ea-a40b-4ac6-9ded-62f2e8b9f735)
+![image](https://github.com/user-attachments/assets/0d3993b4-05a3-41c0-bb33-bce39f583ad2)
