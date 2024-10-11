@@ -6,10 +6,10 @@
    - NestJS, Prisma, postgresql, Typescript
      
 ## 3. MileStone
-
-
+![image](https://github.com/user-attachments/assets/0e7df233-0f25-4c35-a9ce-e579dcb15d24)
 
 ## 4. 시퀀스 다이어그램
+
 
 
 ## 5. 플로우 차트
