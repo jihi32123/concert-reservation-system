@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+model User {
+  id        String   @id @default(uuid())
+  name      String
+  token     Token?
+}
+
+model Token {
+  id            String   @id @default(uuid())
+  userId        String   @unique
+  status        TokenStatus @default(WAITING) // 대기열 상태: 대기, 유효, 만료
+  createdAt     DateTime @default(now())
+  user          User     @relation(fields: [userId], references: [id])
+}
+
+enum TokenStatus {
+  WAITING
+  VALID
+  EXPIRED
+}
